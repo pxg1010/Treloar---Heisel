@@ -34,6 +34,7 @@
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.radioButton11 = new System.Windows.Forms.RadioButton();
             this.radioButton10 = new System.Windows.Forms.RadioButton();
             this.radioButton9 = new System.Windows.Forms.RadioButton();
             this.radioButton8 = new System.Windows.Forms.RadioButton();
@@ -45,7 +46,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.radioButton11 = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -114,6 +114,17 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Select an option";
             // 
+            // radioButton11
+            // 
+            this.radioButton11.AutoSize = true;
+            this.radioButton11.Location = new System.Drawing.Point(4, 323);
+            this.radioButton11.Name = "radioButton11";
+            this.radioButton11.Size = new System.Drawing.Size(292, 24);
+            this.radioButton11.TabIndex = 14;
+            this.radioButton11.TabStop = true;
+            this.radioButton11.Text = "Why is my connection red and flashing?";
+            this.radioButton11.UseVisualStyleBackColor = true;
+            // 
             // radioButton10
             // 
             this.radioButton10.AutoSize = true;
@@ -136,6 +147,7 @@
             this.radioButton9.TabStop = true;
             this.radioButton9.Text = "Change log information";
             this.radioButton9.UseVisualStyleBackColor = true;
+            this.radioButton9.CheckedChanged += new System.EventHandler(this.radioButton9_CheckedChanged);
             // 
             // radioButton8
             // 
@@ -235,17 +247,6 @@
             this.label2.Size = new System.Drawing.Size(79, 17);
             this.label2.TabIndex = 10;
             this.label2.Text = "v1.0 by PG";
-            // 
-            // radioButton11
-            // 
-            this.radioButton11.AutoSize = true;
-            this.radioButton11.Location = new System.Drawing.Point(4, 323);
-            this.radioButton11.Name = "radioButton11";
-            this.radioButton11.Size = new System.Drawing.Size(292, 24);
-            this.radioButton11.TabIndex = 14;
-            this.radioButton11.TabStop = true;
-            this.radioButton11.Text = "Why is my connection red and flashing?";
-            this.radioButton11.UseVisualStyleBackColor = true;
             // 
             // home
             // 

@@ -5,20 +5,25 @@ using System.Windows.Forms;
 using System.Net;
 using System.Net.Sockets;
 
+
 namespace user_editor
 {
     public partial class panelChildForm : Form
     {
+        
         //public const string fileName = "G:\\.shortcut-targets-by-id\\0BzQ5p13p5nSCNmNuWHlNT1QxZXc\\IT SUPPORT\\Signature Generator 102022\\picLinks.js";
         public const string fileName = "C:\\Users\\17244\\Desktop\\test.js";
+        public const string outPut = "C:\\Users\\17244\\Desktop\\Treloar---Heisel\\user_editor\\bin\\Debug\\net6.0-windows\\test.txt";
         System.Windows.Forms.Timer tmr = null;
         public string userName = Environment.UserName;
+        public string changes = "";
 
         //store the ip globally
         public string ipAdd = GetLocalIPAddress();
         public bool connect = false;
         public int counter = 0;
-        //does this change register
+
+        
         public panelChildForm()
         {
             InitializeComponent();
@@ -26,19 +31,26 @@ namespace user_editor
 
             //start the timer for the date and for the connection green or red
             StartTimer();
-
+            
             //set the label equal to the ip
             label10.Text = ipAdd;
             connect = isConnected(ipAdd);
+            
             label12.Text = userName;
+            logChanges("\n" + DateTime.Now.ToString("MM-dd-yy") + " --- " + DateTime.Now.ToString("H:mm:ss") + "\nUser: " + userName + "\nIP: " + ipAdd + "\n");
+            logChanges(logConnection(ipAdd));
+
             
         }
+
         private void StartTimer()
         {
             tmr = new System.Windows.Forms.Timer();
             tmr.Interval = 1000;
             tmr.Tick += new EventHandler(tmr_Tick);
             tmr.Enabled = true;
+            
+
         }
         void tmr_Tick(object sender, EventArgs e)
         {
@@ -47,6 +59,7 @@ namespace user_editor
             ipAdd = GetLocalIPAddress();
             connect = isConnected(ipAdd);   //double check connection status
             label10.Text = ipAdd;
+
             //increment counter to not make a strobe light
             counter += 1; 
 
@@ -55,18 +68,30 @@ namespace user_editor
             {
                 label17.Text = "Connected to G: Drive";
                 label19.Text = "Recording...";
+
+                if(counter == 1)
+                {
+                    logChanges("--- G:/ Drive Connection Established --- \n");
+                }
             }
             else
             {
-                label17.Text = "";
-                label19.Text = "";
+                label17.Text = "No G:/ Information";
+                label19.Text = "Recording clicks";
+
+                if(counter == 1)
+                {
+                    logChanges("--- Failed Connection to G:/ Drive --- \n");
+                    MessageBox.Show("Cannot locate Javascript File\nRecommended action to quit program");
+                }
+
+                
             }
             //if counter is even then flash green
             if((counter % 2 == 0) && connect.ToString() == "True")
             {
                 label11.BackColor = Color.LimeGreen;
-               // label17.Text = "Connected to G: Drive";
-                //label19.Text = "Recording...";
+               
 
             }
             else if((counter % 2 == 0) && connect.ToString() == "False")
@@ -106,6 +131,7 @@ namespace user_editor
             if (ip.Contains("192"))
             {
                 label15.Text = "Local - Can't edit";
+                
                 return false;
             }
             label15.Text = "IPv4 Connection";
@@ -118,6 +144,11 @@ namespace user_editor
             caseState += "\t\t\t\tsigCode += sen3 + name + sen4 + title; \n";
             caseState += "\t\t\t\tbreak; \n";
             caseState += "\t\t\t//new1";
+
+            //log
+            logChanges("*** " + textBox1.Text.ToUpper() + " added to js.file *** \n");
+            logChanges("*** " + textBox2.Text + " link to photo *** \n");
+
             //find the text
             var content = File.ReadAllText(fileName);
 
@@ -145,7 +176,8 @@ namespace user_editor
             caseState += "\t\t\t\tsigCode += sen3 + name + sen4 + title; \n";
             caseState += "\t\t\t\tbreak; \n";
 
-
+            logChanges("*** " + textBox3.Text.ToUpper() + " removed from database ***\n");
+            logChanges("*** " + textBox4.Text + " recovery link to picture ***\n");
 
             string replace = "//Deleted User\n";
             //find the text
@@ -233,12 +265,13 @@ namespace user_editor
 
         private void button9_Click(object sender, EventArgs e)
         {
-            
+            logChanges("--- Opened Help Panel ---\n");
             showSubMenu(panelHelpMenu);
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
+            logChanges("--- Opening Form 2 ---\n");
             home f = new home();
             f.Show();
             hideMenu();
@@ -246,6 +279,7 @@ namespace user_editor
 
         private void button11_Click(object sender, EventArgs e)
         {
+            logChanges("--- Locating User ---\n");
             Form3 user = new Form3();
             user.Show();
 
@@ -263,8 +297,37 @@ namespace user_editor
 
         private void button3_Click_1(object sender, EventArgs e)
         {
-            string myfile = "C:\\Users\\17244\\Desktop\\School\\Semester 7\\CPSC 236\\user_editor\\bin\\Debug\\net6.0-windows\\test.txt";
+            logChanges("--- Accessed Change Log ---\n");
+            string myfile = "C:\\Users\\17244\\Desktop\\Treloar---Heisel\\user_editor\\bin\\Debug\\net6.0-windows\\test.txt";
             Process.Start("notepad.exe", myfile);
         }
+
+        private void logChanges(String change)
+        {
+            FileStream fs = new FileStream(outPut, FileMode.OpenOrCreate);
+            StreamWriter str = new StreamWriter(fs);
+            str.BaseStream.Seek(0, SeekOrigin.End);
+            str.Write(change);
+            str.Flush();
+            str.Close();
+            fs.Close();
+        }
+
+        private String logConnection(String ip)
+        {
+            if (ip.Contains("192") && !File.Exists(fileName))
+            {
+                return "--- Not connected to internet --- \n--- Javascript file not found ---\n";
+            }
+            else if (ip.Contains("192") || !File.Exists(fileName))
+            {
+                return "--- Not Connected to Internet ---\n --- File may not exist --- \n";
+            }
+            else
+            {
+                return "--- Successful connection --- \n--- Accessing Google Drive ---\n";
+            }
+        }
+
     }
 }

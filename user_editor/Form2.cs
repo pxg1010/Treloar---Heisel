@@ -66,7 +66,7 @@ namespace user_editor
             }
             else if(radioButton9.Checked)
             {
-                richTextBox1.Text = "The change log records all changes made to the database and when the program is accessed. The log will be useful to record when changes are made and who made them by IP Address. It will also include a timestamp to better find information on who committed the changes. This only records changes for the database itself and does not check the overall format of the in piclinks. However, this could be implemented by using a backup copy of picLinks and comparing it to the new version and then comparing it to the change log. ";
+                richTextBox1.Text = "The change log is used to record login information to the application as well as potential errors that may have happened when the user connected to the database. The log is automatically filled and no input is required from the user. Simply clicking the view changes button will open to text file that contains all referenced changes and login information. \n\nIf a user is deleted from the Javascript file, then the link and name will be included in the datalog. This will be useful for any errors that may have potentially occurred.";
             }
             else if(radioButton10.Checked)
             {
@@ -76,6 +76,11 @@ namespace user_editor
             {
                 richTextBox1.Text = "If you are flashing red on your connection it means that you are connected to the local host and not the internet (Check your settings), or there was a failed connection to the google drive. This could technically stem from either an incorrect path, or the folder in the Google Drive was moved. A green connection means that all pathways are clear and your edits will be saved. \n\nThis should always default to green on T&H computers, as the pathway is constant unless changed. Attempting to access the google drive outside of the network will not work unless the Google drive is mapped to your personal computer.";
             }
+        }
+
+        private void radioButton9_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -358,13 +358,13 @@
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label9.Location = new System.Drawing.Point(70, 68);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(26, 17);
             this.label9.TabIndex = 19;
             this.label9.Text = "IP:";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label10
             // 
@@ -373,6 +373,7 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(68, 17);
             this.label10.TabIndex = 20;
+            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label11
             // 
@@ -383,7 +384,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(12, 12);
             this.label11.TabIndex = 21;
-            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // label12
@@ -397,23 +398,23 @@
             // 
             // label13
             // 
-            this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label13.Location = new System.Drawing.Point(52, 28);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(44, 17);
             this.label13.TabIndex = 23;
             this.label13.Text = "User:";
+            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label14
             // 
-            this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label14.Location = new System.Drawing.Point(6, 48);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(91, 17);
             this.label14.TabIndex = 24;
             this.label14.Text = "Connection:";
+            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label15
             // 
@@ -426,13 +427,13 @@
             // 
             // label16
             // 
-            this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label16.Location = new System.Drawing.Point(12, 88);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(84, 17);
             this.label16.TabIndex = 26;
             this.label16.Text = "Found File:";
+            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label17
             // 
@@ -474,7 +475,6 @@
             // 
             // label18
             // 
-            this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label18.Location = new System.Drawing.Point(6, 108);
             this.label18.Name = "label18";
@@ -514,7 +514,6 @@
             this.panelLogo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
 
         }

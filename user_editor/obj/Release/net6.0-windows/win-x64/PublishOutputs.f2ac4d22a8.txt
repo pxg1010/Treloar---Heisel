@@ -1,0 +1,7 @@
+C:\Users\17244\Desktop\Treloar---Heisel\user_editor\bin\publish\user_editor.pdb
+C:\Users\17244\Desktop\Treloar---Heisel\user_editor\bin\publish\D3DCompiler_47_cor3.dll
+C:\Users\17244\Desktop\Treloar---Heisel\user_editor\bin\publish\PenImc_cor3.dll
+C:\Users\17244\Desktop\Treloar---Heisel\user_editor\bin\publish\PresentationNative_cor3.dll
+C:\Users\17244\Desktop\Treloar---Heisel\user_editor\bin\publish\vcruntime140_cor3.dll
+C:\Users\17244\Desktop\Treloar---Heisel\user_editor\bin\publish\wpfgfx_cor3.dll
+C:\Users\17244\Desktop\Treloar---Heisel\user_editor\bin\publish\user_editor.exe
