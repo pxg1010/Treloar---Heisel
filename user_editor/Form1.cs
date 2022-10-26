@@ -12,12 +12,17 @@ namespace user_editor
     {
         
         //public const string fileName = "G:\\.shortcut-targets-by-id\\0BzQ5p13p5nSCNmNuWHlNT1QxZXc\\IT SUPPORT\\Signature Generator 102022\\picLinks.js";
+        //for testing purposes, this is to my C drive ... if you are editing this program change this to your C drive
+        //and then back to the g drive for T&H purposes
         public const string fileName = "C:\\Users\\17244\\Desktop\\test.js";
+
         public const string outPut = "C:\\Users\\17244\\Desktop\\Treloar---Heisel\\user_editor\\bin\\Debug\\net6.0-windows\\test.txt";
+        //public const string outPut = "G:\\.shortcut-targets-by-id\\0BzQ5p13p5nSCNmNuWHlNT1QxZXc\\IT SUPPORT\\Signature Generator 102022\\test.txt";
+
         System.Windows.Forms.Timer tmr = null;
         public string userName = Environment.UserName;
         public string changes = "";
-
+        
         //store the ip globally
         public string ipAdd = GetLocalIPAddress();
         public bool connect = false;
@@ -35,7 +40,7 @@ namespace user_editor
             //set the label equal to the ip
             label10.Text = ipAdd;
             connect = isConnected(ipAdd);
-            
+            label21.Text = userName +"!";
             label12.Text = userName;
             logChanges("\n" + DateTime.Now.ToString("MM-dd-yy") + " --- " + DateTime.Now.ToString("H:mm:ss") + "\nUser: " + userName + "\nIP: " + ipAdd + "\n");
             logChanges(logConnection(ipAdd));
@@ -298,8 +303,8 @@ namespace user_editor
         private void button3_Click_1(object sender, EventArgs e)
         {
             logChanges("--- Accessed Change Log ---\n");
-            string myfile = "C:\\Users\\17244\\Desktop\\Treloar---Heisel\\user_editor\\bin\\Debug\\net6.0-windows\\test.txt";
-            Process.Start("notepad.exe", myfile);
+            
+            Process.Start("notepad.exe", outPut);
         }
 
         private void logChanges(String change)

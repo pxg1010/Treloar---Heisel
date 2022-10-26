@@ -1,0 +1,122 @@
+
+10-26-22 --- 13:25:16
+User: Preston
+IP: 10.0.2.71
+--- Not Connected to Internet ---
+ --- File may not exist --- 
+--- Failed Connection to G:/ Drive --- 
+
+10-26-22 --- 13:45:45
+User: Preston
+IP: 10.0.2.71
+--- Not Connected to Internet ---
+ --- File may not exist --- 
+--- Failed Connection to G:/ Drive --- 
+
+10-26-22 --- 13:53:06
+User: Preston
+IP: 10.0.2.71
+--- Not Connected to Internet ---
+ --- File may not exist --- 
+--- Failed Connection to G:/ Drive --- 
+
+10-26-22 --- 13:53:32
+User: Preston
+IP: 10.0.2.71
+--- Not Connected to Internet ---
+ --- File may not exist --- 
+--- Failed Connection to G:/ Drive --- 
+
+10-26-22 --- 14:24:44
+User: Preston
+IP: 10.0.2.71
+--- Not Connected to Internet ---
+ --- File may not exist --- 
+--- Failed Connection to G:/ Drive --- 
+
+10-26-22 --- 14:39:16
+User: Preston
+IP: 10.0.2.71
+--- Not Connected to Internet ---
+ --- File may not exist --- 
+--- Failed Connection to G:/ Drive --- 
+
+10-26-22 --- 15:11:40
+User: Preston
+IP: 10.0.2.71
+--- Not Connected to Internet ---
+ --- File may not exist --- 
+--- Failed Connection to G:/ Drive --- 
+
+10-26-22 --- 15:13:46
+User: Preston
+IP: 10.0.2.71
+--- Not Connected to Internet ---
+ --- File may not exist --- 
+--- Failed Connection to G:/ Drive --- 
+
+10-26-22 --- 15:14:38
+User: Preston
+IP: 10.0.2.71
+--- Not Connected to Internet ---
+ --- File may not exist --- 
+--- Failed Connection to G:/ Drive --- 
+
+10-26-22 --- 15:15:22
+User: Preston
+IP: 10.0.2.71
+--- Not Connected to Internet ---
+ --- File may not exist --- 
+--- Failed Connection to G:/ Drive --- 
+
+10-26-22 --- 15:16:12
+User: Preston
+IP: 10.0.2.71
+--- Not Connected to Internet ---
+ --- File may not exist --- 
+--- Failed Connection to G:/ Drive --- 
+
+10-26-22 --- 15:17:04
+User: Preston
+IP: 10.0.2.71
+--- Not Connected to Internet ---
+ --- File may not exist --- 
+--- Failed Connection to G:/ Drive --- 
+
+10-26-22 --- 15:17:23
+User: Preston
+IP: 10.0.2.71
+--- Not Connected to Internet ---
+ --- File may not exist --- 
+--- Failed Connection to G:/ Drive --- 
+
+10-26-22 --- 15:17:43
+User: Preston
+IP: 10.0.2.71
+--- Not Connected to Internet ---
+ --- File may not exist --- 
+--- Failed Connection to G:/ Drive --- 
+
+10-26-22 --- 15:17:56
+User: Preston
+IP: 10.0.2.71
+--- Not Connected to Internet ---
+ --- File may not exist --- 
+--- Failed Connection to G:/ Drive --- 
+
+10-26-22 --- 15:18:52
+User: Preston
+IP: 10.0.2.71
+--- Not Connected to Internet ---
+ --- File may not exist --- 
+--- Failed Connection to G:/ Drive --- 
+--- Opened Help Panel ---
+--- Locating User ---
+--- Opening Form 2 ---
+
+10-26-22 --- 15:21:32
+User: Preston
+IP: 10.0.2.71
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 

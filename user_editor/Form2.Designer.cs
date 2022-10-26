@@ -155,10 +155,10 @@
             this.radioButton8.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.radioButton8.Location = new System.Drawing.Point(4, 233);
             this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(114, 25);
+            this.radioButton8.Size = new System.Drawing.Size(141, 25);
             this.radioButton8.TabIndex = 11;
             this.radioButton8.TabStop = true;
-            this.radioButton8.Text = "User exists?";
+            this.radioButton8.Text = "Find Employee?";
             this.radioButton8.UseVisualStyleBackColor = true;
             // 
             // radioButton7

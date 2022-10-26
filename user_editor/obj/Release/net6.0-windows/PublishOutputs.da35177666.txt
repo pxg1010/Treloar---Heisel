@@ -1,0 +1,5 @@
+C:\Users\17244\Desktop\user_editor.exe
+C:\Users\17244\Desktop\user_editor.dll
+C:\Users\17244\Desktop\user_editor.deps.json
+C:\Users\17244\Desktop\user_editor.runtimeconfig.json
+C:\Users\17244\Desktop\user_editor.pdb

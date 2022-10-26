@@ -6,3 +6,118 @@ IP: 10.0.2.71
 --- Successful connection --- 
 --- Accessing Google Drive ---
 --- G:/ Drive Connection Established --- 
+
+10-26-22 --- 13:05:17
+User: Preston
+IP: 10.0.2.71
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+
+10-26-22 --- 13:11:36
+User: Preston
+IP: 10.0.2.71
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessed Change Log ---
+
+10-26-22 --- 13:13:03
+User: Preston
+IP: 10.0.2.71
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+
+10-26-22 --- 13:16:09
+User: Preston
+IP: 10.0.2.71
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+
+10-26-22 --- 13:17:07
+User: Preston
+IP: 10.0.2.71
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+
+10-26-22 --- 13:18:06
+User: Preston
+IP: 10.0.2.71
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+
+10-26-22 --- 13:23:06
+User: Preston
+IP: 10.0.2.71
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessed Change Log ---
+
+10-26-22 --- 13:33:01
+User: Preston
+IP: 10.0.2.71
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessed Change Log ---
+
+10-26-22 --- 15:21:47
+User: Preston
+IP: 10.0.2.71
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessed Change Log ---
+
+10-26-22 --- 15:23:07
+User: Preston
+IP: 10.0.2.71
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+
+10-26-22 --- 15:26:00
+User: Preston
+IP: 10.0.2.71
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+
+10-26-22 --- 15:27:42
+User: Preston
+IP: 10.0.2.71
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+
+10-26-22 --- 15:28:07
+User: Preston
+IP: 10.0.2.71
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessed Change Log ---
+--- Opened Help Panel ---
+--- Opening Form 2 ---
+
+10-26-22 --- 15:32:43
+User: Preston
+IP: 10.0.2.71
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Opened Help Panel ---
+--- Opening Form 2 ---
+
+10-26-22 --- 15:34:00
+User: Preston
+IP: 10.0.2.71
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessed Change Log ---

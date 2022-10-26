@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Cvkcf59DyYo2rVGcBNA9LqeLBR2xnq/qqEvzDI6HbcZxYs6DsEFL3ui+1hDVr327Iqu1pGLqCZ4f7DEp0DE9Fg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\17244\\Desktop\\Treloar---Heisel\\user_editor\\user_editor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\17244\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\6.0.8\\microsoft.netcore.app.runtime.win-x86.6.0.8.nupkg.sha512",
+    "C:\\Users\\17244\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\6.0.8\\microsoft.windowsdesktop.app.runtime.win-x86.6.0.8.nupkg.sha512",
+    "C:\\Users\\17244\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\6.0.8\\microsoft.aspnetcore.app.runtime.win-x86.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
