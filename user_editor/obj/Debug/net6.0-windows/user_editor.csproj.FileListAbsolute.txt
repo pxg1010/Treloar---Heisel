@@ -40,3 +40,24 @@ C:\Users\17244\Desktop\School\Semester 7\CPSC 636\user_editor\obj\Debug\net6.0-w
 C:\Users\17244\Desktop\School\Semester 7\CPSC 636\user_editor\obj\Debug\net6.0-windows\user_editor.pdb
 C:\Users\17244\Desktop\School\Semester 7\CPSC 636\user_editor\obj\Debug\net6.0-windows\user_editor.genruntimeconfig.cache
 C:\Users\17244\Desktop\School\Semester 7\CPSC 636\user_editor\obj\Debug\net6.0-windows\ref\user_editor.dll
+C:\Users\17244\Desktop\Treloar---Heisel\user_editor\bin\Debug\net6.0-windows\user_editor.exe
+C:\Users\17244\Desktop\Treloar---Heisel\user_editor\bin\Debug\net6.0-windows\user_editor.deps.json
+C:\Users\17244\Desktop\Treloar---Heisel\user_editor\bin\Debug\net6.0-windows\user_editor.runtimeconfig.json
+C:\Users\17244\Desktop\Treloar---Heisel\user_editor\bin\Debug\net6.0-windows\user_editor.dll
+C:\Users\17244\Desktop\Treloar---Heisel\user_editor\bin\Debug\net6.0-windows\user_editor.pdb
+C:\Users\17244\Desktop\Treloar---Heisel\user_editor\obj\Debug\net6.0-windows\user_editor.csproj.AssemblyReference.cache
+C:\Users\17244\Desktop\Treloar---Heisel\user_editor\obj\Debug\net6.0-windows\user_editor.panelChildForm.resources
+C:\Users\17244\Desktop\Treloar---Heisel\user_editor\obj\Debug\net6.0-windows\user_editor.home.resources
+C:\Users\17244\Desktop\Treloar---Heisel\user_editor\obj\Debug\net6.0-windows\user_editor.Form2.resources
+C:\Users\17244\Desktop\Treloar---Heisel\user_editor\obj\Debug\net6.0-windows\user_editor.Form3.resources
+C:\Users\17244\Desktop\Treloar---Heisel\user_editor\obj\Debug\net6.0-windows\user_editor.Properties.Resources.resources
+C:\Users\17244\Desktop\Treloar---Heisel\user_editor\obj\Debug\net6.0-windows\user_editor.csproj.GenerateResource.cache
+C:\Users\17244\Desktop\Treloar---Heisel\user_editor\obj\Debug\net6.0-windows\user_editor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\17244\Desktop\Treloar---Heisel\user_editor\obj\Debug\net6.0-windows\user_editor.AssemblyInfoInputs.cache
+C:\Users\17244\Desktop\Treloar---Heisel\user_editor\obj\Debug\net6.0-windows\user_editor.AssemblyInfo.cs
+C:\Users\17244\Desktop\Treloar---Heisel\user_editor\obj\Debug\net6.0-windows\user_editor.csproj.CoreCompileInputs.cache
+C:\Users\17244\Desktop\Treloar---Heisel\user_editor\obj\Debug\net6.0-windows\user_editor.dll
+C:\Users\17244\Desktop\Treloar---Heisel\user_editor\obj\Debug\net6.0-windows\refint\user_editor.dll
+C:\Users\17244\Desktop\Treloar---Heisel\user_editor\obj\Debug\net6.0-windows\user_editor.pdb
+C:\Users\17244\Desktop\Treloar---Heisel\user_editor\obj\Debug\net6.0-windows\user_editor.genruntimeconfig.cache
+C:\Users\17244\Desktop\Treloar---Heisel\user_editor\obj\Debug\net6.0-windows\ref\user_editor.dll

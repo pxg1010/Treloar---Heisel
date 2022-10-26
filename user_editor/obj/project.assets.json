@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\17244\\Desktop\\School\\Semester 7\\CPSC 636\\user_editor\\user_editor.csproj",
+      "projectUniqueName": "C:\\Users\\17244\\Desktop\\Treloar---Heisel\\user_editor\\user_editor.csproj",
       "projectName": "user_editor",
-      "projectPath": "C:\\Users\\17244\\Desktop\\School\\Semester 7\\CPSC 636\\user_editor\\user_editor.csproj",
+      "projectPath": "C:\\Users\\17244\\Desktop\\Treloar---Heisel\\user_editor\\user_editor.csproj",
       "packagesPath": "C:\\Users\\17244\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\17244\\Desktop\\School\\Semester 7\\CPSC 636\\user_editor\\obj\\",
+      "outputPath": "C:\\Users\\17244\\Desktop\\Treloar---Heisel\\user_editor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

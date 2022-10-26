@@ -18,7 +18,7 @@ namespace user_editor
         public string ipAdd = GetLocalIPAddress();
         public bool connect = false;
         public int counter = 0;
-
+        //does this change register
         public panelChildForm()
         {
             InitializeComponent();
