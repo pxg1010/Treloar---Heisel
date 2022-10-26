@@ -1,0 +1,22 @@
+Preston Gallaher
+twitter.com
+
+
+switch(user)
+{
+	case "PRESTON GALLAHER": 
+		Does this text appear on the next line 
+		break;
+	case "Preston Gallaher": 
+		<style> #t1 { border-left-style: solid; padding 8 px: border-color: #999999; border-width: 2px; } </style><td id = 't1'> <b>" + name + "</b> <br>" + title + "<br>"; 
+		break;
+	case "Preston Gallaher": 
+		"<style> #t1 { border-left-style: solid; padding 8 px: border-color: #999999; border-width: 2px; } </style><td id = 't1'> <b>" + name + "</b> <br>" + title + "<br>"; 
+		break;
+	case "Preston Gallaher": 
+		"<style> #t1 { border-left-style: solid; padding 8 px: border-color: #999999; border-width: 2px; } </style><td id = 't1'> <b>" + name + "</b> <br>" + title + "<br>"; 
+		break; 
+	case "Preston Gallaher": 
+		"<style> #t1 { border-left-style: solid; padding 8 px: border-color: #999999; border-width: 2px; } </style><td id = 't1'> <b>" + name + "</b> <br>" + title + "<br>"; 
+		break; 
+	//new1
