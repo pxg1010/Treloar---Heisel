@@ -47,7 +47,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1402, 65);
+            this.panel1.Size = new System.Drawing.Size(1393, 65);
             this.panel1.TabIndex = 2;
             // 
             // label1
@@ -137,16 +137,17 @@
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 20;
-            this.listBox1.Location = new System.Drawing.Point(1042, 111);
+            this.listBox1.Location = new System.Drawing.Point(887, 582);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(272, 444);
+            this.listBox1.Size = new System.Drawing.Size(46, 4);
             this.listBox1.TabIndex = 21;
+            this.listBox1.Visible = false;
             // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1402, 612);
+            this.ClientSize = new System.Drawing.Size(1393, 612);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button1);

@@ -51,6 +51,7 @@ namespace user_editor
                         lines[i] = lines[i].Replace("\"", "");
                         lines[i] = lines[i].Replace(":", "");
                         lines[i] = lines[i].Trim();
+
                         if (empCounter <= 20)
                         {
                             
@@ -75,8 +76,6 @@ namespace user_editor
                     }
                 }
             }
-            
-
             //display number of employees in the label 
             label2.Text = (empCounter-1).ToString();
         }
@@ -101,6 +100,7 @@ namespace user_editor
             foreach (var item in checkedListBox1.CheckedItems)
             {
                 listBox1.Items.Add(item);
+                
                 nameCount++;
             }
             foreach (var item in checkedListBox2.CheckedItems)
@@ -119,15 +119,48 @@ namespace user_editor
                 nameCount++;
             }
 
-            
+            //store names
             string[] names = new string[nameCount];
-            var selectedOption = MessageBox.Show("Are You Sure?", "Confirmation " + names.Length, MessageBoxButtons.YesNo);
+            int counter = 0;
 
-            if(selectedOption == DialogResult.Yes)
+            //scan the listbox for each name and store in name array
+            foreach(var item in listBox1.Items)
             {
-                //do something
+                names[counter] = item.ToString();
+                counter++;  //increment counter
             }
 
+            var selectedOption = MessageBox.Show("Are You Sure?", "Confirmation ", MessageBoxButtons.YesNo);
+            
+            if(selectedOption == DialogResult.Yes)
+            {
+                string[] lines = File.ReadAllLines(fileName);
+
+                //1 loop iteration for each name we want to delete
+                for(int o = 0; o < names.Length; o++)
+                { 
+                    //loop through each line until name is found
+                    for(int j = 0; j < lines.Length; j++)
+                    {
+                        //if this line contains that name, then delete it and the next three lines to maintain code
+                        if (lines[j].Contains(names[o]))
+                        {
+                            lines[j] = "";
+                            lines[j + 1] = "";
+                            lines[j + 2] = "";
+                            lines[j + 3] = "";
+                        }
+                    }
+                }
+
+                //rewrite the new array to the output file without the deleted users
+                File.WriteAllLines(fileName, lines);
+
+                //close this submenu 
+                this.Close();
+            }
+
+            //if the selected option is no, then do nothing and close
             if(selectedOption == DialogResult.No)
             {
                 this.Close();
