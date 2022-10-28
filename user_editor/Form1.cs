@@ -19,7 +19,7 @@ namespace user_editor
         public const string outPut = "C:\\Users\\17244\\Desktop\\Treloar---Heisel\\user_editor\\bin\\Debug\\net6.0-windows\\test.txt";
         //public const string outPut = "G:\\.shortcut-targets-by-id\\0BzQ5p13p5nSCNmNuWHlNT1QxZXc\\IT SUPPORT\\Signature Generator 102022\\test.txt";
 
-        System.Windows.Forms.Timer tmr = null;
+        System.Windows.Forms.Timer? tmr = null;
         public string userName = Environment.UserName;
         public string changes = "";
         
@@ -130,6 +130,8 @@ namespace user_editor
             }
             throw new Exception("No network adapters with an IPv4 address in the system!");
         }
+
+       
 
         public bool isConnected(string ip)
         {   //56 if testing on a home network
@@ -344,6 +346,7 @@ namespace user_editor
 
         private void button4_Click_1(object sender, EventArgs e)
         {
+            logChanges("--- Accessing Employee List ---\r\n");
             //this button will pull individual employees into a total list to show all employees
             Form users = new Form4();
             users.Show();

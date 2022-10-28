@@ -522,3 +522,4 @@ C:\Users\17244\Desktop\Treloar---Heisel\user_editor\obj\Release\net6.0-windows\w
 C:\Users\17244\Desktop\Treloar---Heisel\user_editor\obj\Release\net6.0-windows\win-x64\refint\user_editor.dll
 C:\Users\17244\Desktop\Treloar---Heisel\user_editor\obj\Release\net6.0-windows\win-x64\user_editor.pdb
 C:\Users\17244\Desktop\Treloar---Heisel\user_editor\obj\Release\net6.0-windows\win-x64\ref\user_editor.dll
+C:\Users\17244\Desktop\Treloar---Heisel\user_editor\obj\Release\net6.0-windows\win-x64\user_editor.Form4.resources

@@ -129,7 +129,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(217, 299);
+            this.button1.Location = new System.Drawing.Point(280, 299);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(126, 29);
             this.button1.TabIndex = 5;
@@ -589,7 +589,7 @@
             // 
             // panelChildForm
             // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoSize = true;
             this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
             this.BackColor = System.Drawing.SystemColors.Control;

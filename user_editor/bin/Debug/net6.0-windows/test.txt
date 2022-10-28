@@ -511,3 +511,384 @@ IP: 10.0.2.156
 --- Accessed Change Log ---
 --- Opened Help Panel ---
 --- Opening Form 2 ---
+
+10-28-22 --- 10:45:29
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+--- Accessed Change Log ---
+
+10-28-22 --- 10:47:45
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 10:55:00
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+
+10-28-22 --- 10:56:19
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+
+10-28-22 --- 10:56:51
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+
+10-28-22 --- 10:57:18
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+
+10-28-22 --- 11:03:10
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 11:04:22
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 11:05:33
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 11:06:25
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 11:09:09
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 11:09:37
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 11:09:52
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 11:11:35
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+*** PRESTON GALLAHER added to js.file *** 
+*** twitter.com link to photo *** 
+--- Accessing Employee List ---
+*** PRESTON GALLAHER removed from database ***
+*** twitter.com recovery link to picture ***
+--- Accessing Employee List ---
+
+10-28-22 --- 11:13:58
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+--- Accessing Employee List ---
+--- Accessed Change Log ---
+--- Locating User ---
+--- Opened Help Panel ---
+--- Opening Form 2 ---
+
+10-28-22 --- 11:18:16
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+
+10-28-22 --- 11:19:40
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+
+10-28-22 --- 11:21:10
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+
+10-28-22 --- 11:24:17
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 11:30:08
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 11:35:26
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 11:37:12
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 11:38:33
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 11:39:16
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 11:39:41
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 11:39:58
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 11:41:08
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 11:42:52
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 11:44:12
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 11:48:36
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 11:50:07
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 11:50:56
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 11:52:49
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 11:53:22
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 11:53:42
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 11:57:59
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 12:00:14
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 12:03:08
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 12:04:28
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 12:08:19
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+--- Accessing Employee List ---
+
+10-28-22 --- 12:46:02
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 12:47:17
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 12:55:12
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 12:55:36
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 12:58:27
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 13:00:21
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+
+10-28-22 --- 13:01:28
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
