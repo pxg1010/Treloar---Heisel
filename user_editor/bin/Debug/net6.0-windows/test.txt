@@ -298,3 +298,15 @@ IP: 10.0.2.156
 *** twitter.com link to photo *** 
 --- Accessing Employee List ---
 --- Accessing Employee List ---
+
+10-28-22 --- 15:11:14
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+--- Accessing Employee List ---
+--- Accessed Change Log ---
+--- Locating User ---
+--- Accessing Employee List ---

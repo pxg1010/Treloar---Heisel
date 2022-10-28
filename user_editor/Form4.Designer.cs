@@ -47,7 +47,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1393, 65);
+            this.panel1.Size = new System.Drawing.Size(1028, 65);
             this.panel1.TabIndex = 2;
             // 
             // label1
@@ -74,7 +74,7 @@
             this.checkedListBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.checkedListBox1.CheckOnClick = true;
             this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Location = new System.Drawing.Point(56, 111);
+            this.checkedListBox1.Location = new System.Drawing.Point(57, 111);
             this.checkedListBox1.Name = "checkedListBox1";
             this.checkedListBox1.Size = new System.Drawing.Size(247, 440);
             this.checkedListBox1.TabIndex = 15;
@@ -84,7 +84,7 @@
             this.checkedListBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.checkedListBox2.CheckOnClick = true;
             this.checkedListBox2.FormattingEnabled = true;
-            this.checkedListBox2.Location = new System.Drawing.Point(297, 111);
+            this.checkedListBox2.Location = new System.Drawing.Point(298, 111);
             this.checkedListBox2.Name = "checkedListBox2";
             this.checkedListBox2.Size = new System.Drawing.Size(219, 440);
             this.checkedListBox2.TabIndex = 16;
@@ -95,7 +95,7 @@
             this.checkedListBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.checkedListBox3.CheckOnClick = true;
             this.checkedListBox3.FormattingEnabled = true;
-            this.checkedListBox3.Location = new System.Drawing.Point(511, 111);
+            this.checkedListBox3.Location = new System.Drawing.Point(512, 111);
             this.checkedListBox3.Name = "checkedListBox3";
             this.checkedListBox3.Size = new System.Drawing.Size(229, 440);
             this.checkedListBox3.TabIndex = 17;
@@ -106,7 +106,7 @@
             this.checkedListBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.checkedListBox4.CheckOnClick = true;
             this.checkedListBox4.FormattingEnabled = true;
-            this.checkedListBox4.Location = new System.Drawing.Point(736, 111);
+            this.checkedListBox4.Location = new System.Drawing.Point(737, 111);
             this.checkedListBox4.Name = "checkedListBox4";
             this.checkedListBox4.Size = new System.Drawing.Size(235, 440);
             this.checkedListBox4.TabIndex = 18;
@@ -147,7 +147,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1393, 612);
+            this.ClientSize = new System.Drawing.Size(1028, 612);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button1);
