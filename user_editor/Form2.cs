@@ -37,7 +37,7 @@ namespace user_editor
             else if(radioButton3.Checked)
             {
                 richTextBox1.Text = "";
-                richTextBox1.Text = "This program was developed in Visual Studio 2022. The files are located in the IT Support Google Drive titled user_editor. You can open the project solution and edit the code in form1 for functionality and form2 to edit the help form. The files for the generator itself are also located in the IT Support folder in the google drive. This application searches for the picLinks.js file in the google drive and makes edits directly to it.";
+                richTextBox1.Text = "This program was developed in Visual Studio 2022. The files are located in the IT Support Google Drive titled user_editor. You can open the project solution and edit the code in form1 for functionality and form2 to edit the help form. The files for the generator itself are also located in the IT Support folder in the google drive. This application searches for the picLinks.js file in the google drive and makes edits directly to it. \n\nThere is also a GitHub repository for the codebase that will be linked in the IT Support folder.";
             }
             else if(radioButton4.Checked)
             {

@@ -61,3 +61,4 @@ C:\Users\17244\Desktop\Treloar---Heisel\user_editor\obj\Debug\net6.0-windows\ref
 C:\Users\17244\Desktop\Treloar---Heisel\user_editor\obj\Debug\net6.0-windows\user_editor.pdb
 C:\Users\17244\Desktop\Treloar---Heisel\user_editor\obj\Debug\net6.0-windows\user_editor.genruntimeconfig.cache
 C:\Users\17244\Desktop\Treloar---Heisel\user_editor\obj\Debug\net6.0-windows\ref\user_editor.dll
+C:\Users\17244\Desktop\Treloar---Heisel\user_editor\obj\Debug\net6.0-windows\user_editor.Form4.resources

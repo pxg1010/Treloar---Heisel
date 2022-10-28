@@ -80,13 +80,13 @@
       <dsig:DigestValue>SavRAhKRcTAvUbRpGqEVVA+iU5rEL/SUP2RoYbLO38c=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="user_editor.exe" size="145079238">
+  <file name="user_editor.exe" size="145081286">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>LjA+UBIvUYNfZJVwrOTHAQ8FPa9UgvWFW/ekaYFyYP0=</dsig:DigestValue>
+      <dsig:DigestValue>AlQ/8/dQyLGkTofqCRFeyE/eVF7X2CLegutF2XZqM4s=</dsig:DigestValue>
     </hash>
   </file>
   <file name="vcruntime140_cor3.dll" size="98720">

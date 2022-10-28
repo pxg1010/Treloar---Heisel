@@ -1,0 +1,7 @@
+D:\Editor2\user_editor.pdb
+D:\Editor2\D3DCompiler_47_cor3.dll
+D:\Editor2\PenImc_cor3.dll
+D:\Editor2\PresentationNative_cor3.dll
+D:\Editor2\vcruntime140_cor3.dll
+D:\Editor2\wpfgfx_cor3.dll
+D:\Editor2\user_editor.exe

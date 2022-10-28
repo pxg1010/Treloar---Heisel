@@ -42,7 +42,7 @@ namespace user_editor
             connect = isConnected(ipAdd);
             label21.Text = userName +"!";
             label12.Text = userName;
-            logChanges("\n" + DateTime.Now.ToString("MM-dd-yy") + " --- " + DateTime.Now.ToString("H:mm:ss") + "\nUser: " + userName + "\nIP: " + ipAdd + "\n");
+            logChanges("\r\n" + DateTime.Now.ToString("MM-dd-yy") + " --- " + DateTime.Now.ToString("H:mm:ss") + "\r\nUser: " + userName + "\r\nIP: " + ipAdd + "\r\n");
             logChanges(logConnection(ipAdd));
 
             
@@ -76,7 +76,7 @@ namespace user_editor
 
                 if(counter == 1)
                 {
-                    logChanges("--- G:/ Drive Connection Established --- \n");
+                    logChanges("--- G:/ Drive Connection Established --- \r\n");
                 }
             }
             else
@@ -86,7 +86,7 @@ namespace user_editor
 
                 if(counter == 1)
                 {
-                    logChanges("--- Failed Connection to G:/ Drive --- \n");
+                    logChanges("--- Failed Connection to G:/ Drive --- \r\n");
                     MessageBox.Show("Cannot locate Javascript File\nRecommended action to quit program");
                 }
 
@@ -151,8 +151,8 @@ namespace user_editor
             caseState += "\t\t\t//new1";
 
             //log
-            logChanges("*** " + textBox1.Text.ToUpper() + " added to js.file *** \n");
-            logChanges("*** " + textBox2.Text + " link to photo *** \n");
+            logChanges("*** " + textBox1.Text.ToUpper() + " added to js.file *** \r\n");
+            logChanges("*** " + textBox2.Text + " link to photo *** \r\n");
 
             //find the text
             var content = File.ReadAllText(fileName);
@@ -181,8 +181,8 @@ namespace user_editor
             caseState += "\t\t\t\tsigCode += sen3 + name + sen4 + title; \n";
             caseState += "\t\t\t\tbreak; \n";
 
-            logChanges("*** " + textBox3.Text.ToUpper() + " removed from database ***\n");
-            logChanges("*** " + textBox4.Text + " recovery link to picture ***\n");
+            logChanges("*** " + textBox3.Text.ToUpper() + " removed from database ***\r\n");
+            logChanges("*** " + textBox4.Text + " recovery link to picture ***\r\n");
 
             string replace = "//Deleted User\n";
             //find the text
@@ -270,13 +270,13 @@ namespace user_editor
 
         private void button9_Click(object sender, EventArgs e)
         {
-            logChanges("--- Opened Help Panel ---\n");
+            logChanges("--- Opened Help Panel ---\r\n");
             showSubMenu(panelHelpMenu);
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
-            logChanges("--- Opening Form 2 ---\n");
+            logChanges("--- Opening Form 2 ---\r\n");
             home f = new home();
             f.Show();
             hideMenu();
@@ -284,7 +284,7 @@ namespace user_editor
 
         private void button11_Click(object sender, EventArgs e)
         {
-            logChanges("--- Locating User ---\n");
+            logChanges("--- Locating User ---\r\n");
             Form3 user = new Form3();
             user.Show();
 
@@ -302,37 +302,56 @@ namespace user_editor
 
         private void button3_Click_1(object sender, EventArgs e)
         {
-            logChanges("--- Accessed Change Log ---\n");
+            logChanges("--- Accessed Change Log ---\r\n");
             
             Process.Start("notepad.exe", outPut);
         }
 
         private void logChanges(String change)
         {
-            FileStream fs = new FileStream(outPut, FileMode.OpenOrCreate);
-            StreamWriter str = new StreamWriter(fs);
-            str.BaseStream.Seek(0, SeekOrigin.End);
-            str.Write(change);
-            str.Flush();
-            str.Close();
-            fs.Close();
+            try
+            {
+                FileStream fs = new FileStream(outPut, FileMode.OpenOrCreate);
+                StreamWriter str = new StreamWriter(fs);
+                str.BaseStream.Seek(0, SeekOrigin.End);
+                str.Write(change);
+                str.Flush();
+                str.Close();
+                fs.Close();
+            }
+            catch(Exception)
+            {
+                MessageBox.Show("File not found");
+                Close();
+            }
         }
 
         private String logConnection(String ip)
         {
             if (ip.Contains("192") && !File.Exists(fileName))
             {
-                return "--- Not connected to internet --- \n--- Javascript file not found ---\n";
+                return "--- Not connected to internet --- \r\n--- Javascript file not found ---\r\n";
             }
             else if (ip.Contains("192") || !File.Exists(fileName))
             {
-                return "--- Not Connected to Internet ---\n --- File may not exist --- \n";
+                return "--- Not Connected to Internet ---\r\n --- File may not exist --- \r\n";
             }
             else
             {
-                return "--- Successful connection --- \n--- Accessing Google Drive ---\n";
+                return "--- Successful connection --- \r\n--- Accessing Google Drive ---\r\n";
             }
         }
 
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            //this button will pull individual employees into a total list to show all employees
+            Form users = new Form4();
+            users.Show();
+        }
+
+        private void label21_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
