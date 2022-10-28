@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Metrics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -83,6 +84,54 @@ namespace user_editor
         private void checkedListBox3_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void checkedListBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int nameCount = 0;
+            //First of clear all previous items from the Listbox otherwise it will append the items...
+            listBox1.Items.Clear();
+            
+            //since we cannot do multiple checks we must store the items in a listbox and push out
+            foreach (var item in checkedListBox1.CheckedItems)
+            {
+                listBox1.Items.Add(item);
+                nameCount++;
+            }
+            foreach (var item in checkedListBox2.CheckedItems)
+            {
+                listBox1.Items.Add(item);
+                nameCount++;
+            }
+            foreach (var item in checkedListBox3.CheckedItems)
+            {
+                listBox1.Items.Add(item);
+                nameCount++;
+            }
+            foreach (var item in checkedListBox4.CheckedItems)
+            {
+                listBox1.Items.Add(item);
+                nameCount++;
+            }
+
+            
+            string[] names = new string[nameCount];
+            var selectedOption = MessageBox.Show("Are You Sure?", "Confirmation " + names.Length, MessageBoxButtons.YesNo);
+
+            if(selectedOption == DialogResult.Yes)
+            {
+                //do something
+            }
+
+            if(selectedOption == DialogResult.No)
+            {
+                this.Close();
+            }
         }
     }
 }
