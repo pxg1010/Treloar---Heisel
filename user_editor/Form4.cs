@@ -21,14 +21,14 @@ namespace user_editor
             
         }
         //filename for T&H computers
-        public const string fileName = "G:\\.shortcut-targets-by-id\\0BzQ5p13p5nSCNmNuWHlNT1QxZXc\\IT SUPPORT\\Signature Generator 102022\\picLinks.js";
-        //public const string fileName = "C:\\Users\\17244\\Desktop\\test.js";
+        //public const string fileName = "G:\\.shortcut-targets-by-id\\0BzQ5p13p5nSCNmNuWHlNT1QxZXc\\IT SUPPORT\\Signature Generator 102022\\picLinks.js";
+        public const string fileName = "C:\\Users\\17244\\Desktop\\test.js";
 
         //change log file (local)
-        //public const string outPut = "C:\\Users\\17244\\Desktop\\Treloar---Heisel\\user_editor\\bin\\Debug\\net6.0-windows\\test.txt";
+        public const string outPut = "C:\\Users\\17244\\Desktop\\Treloar---Heisel\\user_editor\\bin\\Debug\\net6.0-windows\\Changelog(Admin).txt";
 
         //change log work
-        public const string outPut = "G:\\.shortcut-targets-by-id\\0BzQ5p13p5nSCNmNuWHlNT1QxZXc\\IT SUPPORT\\Signature Generator 102022\\test.txt";
+        //public const string outPut = "G:\\.shortcut-targets-by-id\\0BzQ5p13p5nSCNmNuWHlNT1QxZXc\\IT SUPPORT\\Signature Generator 102022\\Changelog(Admin).txt";
         public void logChanges(string changes)
         {
             try

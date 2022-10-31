@@ -80,11 +80,20 @@ namespace user_editor
             {
                 richTextBox1.Text = "This menu will load a current list of every employee that is in the javascript file. The users can be selected for deletion of a single user or multiple users. This menu will not log the link that the users photo is at which makes them not recoverable. An undo button could be added to this option in the future if necessary but as of right now as long as users are carefully deleted, then this is not necessary. \n\nUsers will be prompted yes or no to whether they are sure of their selection, if no then the program will exit out. If yes, then the program will exit out and the code will be deleted.";
             }
+            else if(radioButton13.Checked)
+            {
+                richTextBox1.Text = "If you typed a name wrong or used an incorrect photolink, you can simply delete the user from the view current employees option and then find the employee with the incorrect information. Select the checkbox and then confirm the delete. After this is done, you can go back and add them once again with the correct spelling in place that you would like.";
+            }
         }
 
         private void radioButton9_CheckedChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Text = "Congrats you found me! \n\nThis application was developed by Preston Gallaher, IT Intern, from 10/14/2022 to 10/31/2022. The application provides a way to make a static javascript file dynamic in terms of users without using a database. There is more than likely an easy way to accomplish this task but none the less, the software achieves the end goal of a dynamic control system. \n\nThere is a github repository containing all source code and back ups of the original html generator and piclinks.js up to date 10/31/2022. If any questions or issues arise with this app, I can be contacted at preston.gallaher@yahoo.com.";
         }
     }
 }

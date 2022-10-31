@@ -1,0 +1,15 @@
+
+10-31-22 --- 10:24:56
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessed Change Log ---
+--- Accessing Employee List ---
+--- Locating User ---
+--- Accessed Change Log ---
+--- Accessing Employee List ---
+--- Removed case "ORION ANDERSON": ---
+--- Accessed Change Log ---
+--- Accessing Employee List ---

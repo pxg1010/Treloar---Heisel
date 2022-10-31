@@ -1,0 +1,72 @@
+
+10-31-22 --- 10:28:37
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessed Change Log ---
+--- Accessing Employee List ---
+--- Opened Help Panel ---
+--- Opening Program Overview ---
+--- Opened Help Panel ---
+--- Accessing Employee List ---
+*** TEST added to js.file *** 
+*** twitter.com link to photo *** 
+*** TEST2 added to js.file *** 
+*** twitter.com link to photo *** 
+*** TEST3 added to js.file *** 
+*** twitter.com link to photo *** 
+*** TEST4 added to js.file *** 
+*** twitter.com link to photo *** 
+*** TEST5 added to js.file *** 
+*** twitter.com link to photo *** 
+--- Accessing Employee List ---
+*** TEST6 added to js.file *** 
+*** twitter.com link to photo *** 
+--- Accessing Employee List ---
+--- Accessed Change Log ---
+--- Opened Help Panel ---
+--- Opening Program Overview ---
+
+10-31-22 --- 10:38:07
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Opened Help Panel ---
+--- Opening Program Overview ---
+
+10-31-22 --- 10:42:56
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Opened Help Panel ---
+--- Opening Program Overview ---
+
+10-31-22 --- 10:45:37
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Opened Help Panel ---
+--- Opening Program Overview ---
+--- Accessing Employee List ---
+--- Accessed Change Log ---
+--- Accessing Employee List ---
+--- No Employees Removed ---
+--- Accessing Employee List ---
+
+10-31-22 --- 11:01:54
+User: Preston
+IP: 10.0.2.156
+--- Successful connection --- 
+--- Accessing Google Drive ---
+--- G:/ Drive Connection Established --- 
+--- Accessing Employee List ---
+--- Accessed Change Log ---
+--- Accessing Employee List ---

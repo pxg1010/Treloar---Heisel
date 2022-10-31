@@ -11,13 +11,13 @@ namespace user_editor
     public partial class panelChildForm : Form
     {
         
-        public const string fileName = "G:\\.shortcut-targets-by-id\\0BzQ5p13p5nSCNmNuWHlNT1QxZXc\\IT SUPPORT\\Signature Generator 102022\\picLinks.js";
+        //public const string fileName = "G:\\.shortcut-targets-by-id\\0BzQ5p13p5nSCNmNuWHlNT1QxZXc\\IT SUPPORT\\Signature Generator 102022\\picLinks.js";
         //for testing purposes, this is to my C drive ... if you are editing this program change this to your C drive
         //and then back to the g drive for T&H purposes
-        //public const string fileName = "C:\\Users\\17244\\Desktop\\test.js";
+        public const string fileName = "C:\\Users\\17244\\Desktop\\test.js";
 
-        //public const string outPut = "C:\\Users\\17244\\Desktop\\Treloar---Heisel\\user_editor\\bin\\Debug\\net6.0-windows\\test.txt";
-        public const string outPut = "G:\\.shortcut-targets-by-id\\0BzQ5p13p5nSCNmNuWHlNT1QxZXc\\IT SUPPORT\\Signature Generator 102022\\test.txt";
+        public const string outPut = "C:\\Users\\17244\\Desktop\\Treloar---Heisel\\user_editor\\bin\\Debug\\net6.0-windows\\Changelog(Admin).txt";
+        //public const string outPut = "G:\\.shortcut-targets-by-id\\0BzQ5p13p5nSCNmNuWHlNT1QxZXc\\IT SUPPORT\\Signature Generator 102022\\Changelog(Admin).txt";
 
         System.Windows.Forms.Timer? tmr = null;
         public string userName = Environment.UserName;
