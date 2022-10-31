@@ -21,9 +21,32 @@ namespace user_editor
             
         }
         //filename for T&H computers
-        //public const string fileName = "G:\\.shortcut-targets-by-id\\0BzQ5p13p5nSCNmNuWHlNT1QxZXc\\IT SUPPORT\\Signature Generator 102022\\picLinks.js";
-        public const string fileName = "C:\\Users\\17244\\Desktop\\test.js";
+        public const string fileName = "G:\\.shortcut-targets-by-id\\0BzQ5p13p5nSCNmNuWHlNT1QxZXc\\IT SUPPORT\\Signature Generator 102022\\picLinks.js";
+        //public const string fileName = "C:\\Users\\17244\\Desktop\\test.js";
 
+        //change log file (local)
+        //public const string outPut = "C:\\Users\\17244\\Desktop\\Treloar---Heisel\\user_editor\\bin\\Debug\\net6.0-windows\\test.txt";
+
+        //change log work
+        public const string outPut = "G:\\.shortcut-targets-by-id\\0BzQ5p13p5nSCNmNuWHlNT1QxZXc\\IT SUPPORT\\Signature Generator 102022\\test.txt";
+        public void logChanges(string changes)
+        {
+            try
+            {
+                FileStream fs = new FileStream(outPut, FileMode.OpenOrCreate);
+                StreamWriter str = new StreamWriter(fs);
+                str.BaseStream.Seek(0, SeekOrigin.End);
+                str.Write(changes);
+                str.Flush();
+                str.Close();
+                fs.Close();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("File not found");
+                Close();
+            }
+        }
         private void populateList()
         {
             //lines array to store the file info since we do not want to change the information directly 
@@ -145,6 +168,7 @@ namespace user_editor
                         //if this line contains that name, then delete it and the next three lines to maintain code
                         if (lines[j].Contains(names[o]))
                         {
+                            logChanges("--- Removed " + lines[j].Trim() + " ---\r\n");
                             lines[j] = "";
                             lines[j + 1] = "";
                             lines[j + 2] = "";
@@ -163,6 +187,7 @@ namespace user_editor
             //if the selected option is no, then do nothing and close
             if(selectedOption == DialogResult.No)
             {
+                logChanges("--- No Employees Removed ---\r\n");
                 this.Close();
             }
         }

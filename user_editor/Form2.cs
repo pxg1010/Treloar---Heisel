@@ -76,6 +76,10 @@ namespace user_editor
             {
                 richTextBox1.Text = "If you are flashing red on your connection it means that you are connected to the local host and not the internet (Check your settings), or there was a failed connection to the google drive. This could technically stem from either an incorrect path, or the folder in the Google Drive was moved. A green connection means that all pathways are clear and your edits will be saved. \n\nThis should always default to green on T&H computers, as the pathway is constant unless changed. Attempting to access the google drive outside of the network will not work unless the Google drive is mapped to your personal computer.";
             }
+            else if(radioButton12.Checked)
+            {
+                richTextBox1.Text = "This menu will load a current list of every employee that is in the javascript file. The users can be selected for deletion of a single user or multiple users. This menu will not log the link that the users photo is at which makes them not recoverable. An undo button could be added to this option in the future if necessary but as of right now as long as users are carefully deleted, then this is not necessary. \n\nUsers will be prompted yes or no to whether they are sure of their selection, if no then the program will exit out. If yes, then the program will exit out and the code will be deleted.";
+            }
         }
 
         private void radioButton9_CheckedChanged(object sender, EventArgs e)
